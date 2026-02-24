@@ -4,7 +4,7 @@ class Window
 {
 public:
 	Window();//constructor
-
+	void init();
 	~Window();//destructor	
 	static const unsigned int WINDOW_WIDTH = 800;
 	static const unsigned int WINDOW_HEIGHT = 600;

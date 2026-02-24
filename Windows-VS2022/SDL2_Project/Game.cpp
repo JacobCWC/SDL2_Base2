@@ -2,6 +2,10 @@
 #include "Window.h"
 #include "Renderer.h"
 #include "SDL2_Common.h"
+#include "InputManager.h"
+#include "Timing.h"
+
+
 Game::Game()
 {
 	window = nullptr;
@@ -33,6 +37,7 @@ void Game::setupGameState()
 
 void Game::RunGameLoop()
 {
+	
 }
 
 void Game::RunGameLoopOnce()

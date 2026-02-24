@@ -2,6 +2,7 @@
 #if defined(_WIN32) || defined(_WIN64)
 //The SDL library
 #include "SDL.h"
+#include "SDL_types.h"
 //Support for loading different types of images.
 #include "SDL_image.h"
 #else
